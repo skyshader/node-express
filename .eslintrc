@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "new-cap": [1, {
+    "newIsCap": true,
+    "capIsNew": false,
+    "properties": true,
+    "capIsNewExceptions": "Router"
+  }]
+}
