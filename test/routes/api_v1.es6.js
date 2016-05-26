@@ -24,6 +24,7 @@ mocha.describe('API v1', () => {
           if (err) throw err;
           assert.isTrue(res.body.success);
           assert.equal(res.body.api, 'v1');
+          assert.equal(res.body.message, 'This is index action of base controller!');
           done();
         });
     });
